@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset css */
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #F1F0EB;
+    
+    letter-spacing: 0.1em;
+}
+.header{
+    width: 100%;
+    background-color: #de9576;
+    position: absolute;
+}
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 125%;
+}
+h3{
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 125%;
+}
+h4{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 125%;
+}
+h5{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+}
+h6{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+}
+.text-20{
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 20px;
+}
+.text-left{
+    text-align: left;
+}
+.text-centerf{
+    text-align: center;
+}
+.text-rightf{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.text-primaryf{
+    color: #A23C26;
+}
+.text-secondary{
+color: #E2B051;
+}
+.bg-primaryf{
+    background-color:#A23C26;
+}
+.bg-secondary{
+    background-color:#E2B051;
+}
+.container-fluid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-lg{
+    width: 1311px;
+    margin: 0 auto;
+    background-color: #de9576;
+    padding: 24px 30px;
+}
+.container{
+    width: 1072px; 
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(50% 30%);
+    padding: 24px 34px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>[class*="col-"]{
+    padding: 12px;
+}
+/* Flex */
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-item-star{
+    align-items: flex-start;
+}
+.align-item-center{
+    align-items: center;
+}
+.align-item-end{
+    align-items: flex-end;
+}
+.align-self-start{
+    align-self: flex-start;
+}
+.align-self-center{
+    align-self: center;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.w-100{
+    width: 100%;
+}
+/* Chia Cột */
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
